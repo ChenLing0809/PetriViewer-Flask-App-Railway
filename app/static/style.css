@@ -1,0 +1,81 @@
+/* =============== Layout =============== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 10px 30px;
+}
+
+header h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.upload button {
+  padding: 8px 16px;
+  background-color: #0aaec2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload button:hover {
+  background-color: #098da1;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.slider-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.level-value {
+  font-weight: 600;
+}
+
+/* =============== Canvas & Main Layout =============== */
+main.canvas {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.canvas-area {
+  flex: 1;
+  display: flex;
+  gap: 12px;
+}
+
+/* Graph wrapper (left) */
+#graphWrapper {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 6px;
+  flex: 11;
+}
